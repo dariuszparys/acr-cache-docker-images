@@ -12,7 +12,6 @@ The project is organized into the following directories and files:
 - **/src**: Contains the main Bicep file and modules for resource deployment.
 - **/src/modules**: Includes reusable Bicep modules for creating and managing
   Azure resources.
-- **/params**: Contains parameter files for different environments.
 - **deploy.sh**: Script to automate the deployment process.
 - **.env**: File for environment variables
 - **README.md**: Project documentation and instructions.
