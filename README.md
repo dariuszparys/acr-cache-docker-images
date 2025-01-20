@@ -90,6 +90,13 @@ Status: Downloaded newer image for <name of registry>.azurecr.io/python:3.11-sli
 - Stores credentials securely in Key Vault
 - Configures least-privilege access policies
 
+## Notes
+
+There is an ongoing issue that prevents using user-assigned managed identities
+which I would prefer to use in this case.
+
+[credentialSets does not support creation of 'UserAssigned' resource identity](https://github.com/Azure/acr/issues/790)
+
 ## License
 
 This project is licensed under the MIT License.
